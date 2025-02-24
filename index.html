@@ -6,6 +6,46 @@
     <title>Document</title>
 
     <style>
+		/*Juan Section*/
+		body{
+			margin: 0px;
+		}
+		.Header{
+			background: linear-gradient(135deg, rgb(14 39 179), #00BCD4);
+		}
+		nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+            padding-right: 15px;
+        }
+        nav a {
+        	color: white;
+        	margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav .logo {
+        	width: 100px;
+        	height: 50px;
+        	margin: 10px;
+        	margin-right: 400px;
+        }
+        nav .loginlogo{
+        	margin: 10px;
+        	width: 40px;
+        	height: 40px;
+        	margin-left: 400px;
+        	border-radius: 50px;
+        }
+		
         /* MATTHEW SECTIONS */
 		.hiw-section{
 			background-image: url("peopletalking.jpeg");
@@ -32,6 +72,23 @@
 
 </head>
 <body>
+	<section class="Header">
+		<div class="nav-container">
+			<nav>
+				<ul>
+					<img src="logo.PNG" class="logo">
+                	<li><a href="index.html">Home</a></li>
+                	<li><a href="services.html">Browse Topics</a></li>
+                	<li><a href="contact.html">How it Works</a></li>
+                	<li><a href="contact.html">FAQS</a></li>
+                	<li><a href="contact.html">Contact</a></li>
+                	<li><a href="Pages">FAQS</a></li>
+                	<img src="loginlogo.PNG" class="loginlogo">
+            	</ul>
+
+			</nav>
+		</div>
+	</section>
     <section class="hiw-section">
 		<div class="hiw-main">
 			<h1 id="hiw-h1">How does it work?</h1>
