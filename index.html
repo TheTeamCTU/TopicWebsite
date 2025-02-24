@@ -48,25 +48,56 @@
 		
         /* MATTHEW SECTIONS */
 		.hiw-section{
-			background-image: url("peopletalking.jpeg");
-			height: 800px;
-		}	
+            background-image: url("peopletalking.jpeg");
+            background-repeat: no-repeat;
+            height: 800px;
+            position: relative;
+            background-size: cover;
+        }   
 
-		.hiw-main{
-			background-color: black;
-			height: 800px;
-			opacity: 30%;
-		}
+        .hiw-main{
+            background-color: rgba(0, 0, 255, 0.3);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
-		#hiw-h1{
-			text-align: center;
-			color: white;
-		}
+        #hiw-h1{
+            text-align: center;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
 
-		.hiw-info{
-			color: white;
-			
-		}
+        .hiw-info{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hiw-info div{
+            
+        }
+
+        .hiw-info-image{
+        	margin-top: 20px;
+        	margin-left: 100px;
+        	margin-right: 0px;
+        	margin-bottom: 20px;
+        }
+
+        .hiw-info-main{
+        	margin-top: 20px;
+        	margin-left: 0px;
+        	margin-right: 300px;
+        	margin-bottom: 20px;
+        }
 
 	</style>
 
@@ -89,45 +120,42 @@
 			</nav>
 		</div>
 	</section>
+
     <section class="hiw-section">
-		<div class="hiw-main">
-			<h1 id="hiw-h1">How does it work?</h1>
+        <div class="hiw-main">
+            <h1 id="hiw-h1">How does it work?</h1>
 
-			<div class="hiw-info">
-				<div>
-					<img src="circles.png">
-				</div>
+            <div class="hiw-info">
+                <div class="hiw-info-image">
+                    <img src="circles.png" alt="Circles">
+                </div>
 
-				<div>
-					<h2>Search your favorite topic</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
-						cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
-						aliquam? Voluptas, accusamus omnis?
-					</p>
+                <div class="hiw-info-main">
+                    <h2>Search your favorite topic</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,<br>
+                        cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam<br>
+                        aliquam? Voluptas, accusamus omnis?
+                    </p>
 
-					<br>
-					<br>
-					<br>
+                    <br><br><br><br><br><br>
+                    
+                    <h2>Bookmark & Keep it for yourself</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,<br>
+                        cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam<br>
+                        aliquam? Voluptas, accusamus omnis?
+                    </p>
 
-					<h2>Bookmark & Keep it for yourself</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
-						cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
-						aliquam? Voluptas, accusamus omnis?
-					</p>
+                    <br><br><br><br><br><br><br>
+                    
 
-					<br>
-					<br>
-					<br>
-
-					<h2>Read & Enjoy</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,
-						cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam
-						aliquam? Voluptas, accusamus omnis?
-					</p>
-
-				</div>
-			</div>
-		</div>
-	</section>
+                    <h2>Read & Enjoy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi,<br>
+                        cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam<br>
+                        aliquam? Voluptas, accusamus omnis?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
