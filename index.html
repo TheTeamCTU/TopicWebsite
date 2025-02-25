@@ -123,6 +123,52 @@
         	height: 30px;
         	border-radius: 10px ;
         }
+        .SectionFooter{
+        	list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding-right: 15px;
+            border-bottom: solid 50px #10e79f;
+            border-radius: 0px 0px 50px 0px;
+        }
+        .SectionFooter .footerLogo{
+        	display: flex;
+        	justify-content: right;
+        	width: 200px;
+        	height: 100px;
+        }
+        .SectionFooter h1{
+        	color: gray;
+        }
+        .SectionFooter a{
+        	margin: 2px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            color: #45efa2;
+        }
+        .footerResources{
+        	padding: 15px;
+        }
+        .footerInformation{
+        	padding: 15px;
+        }
+        .footerFinal{
+        	padding: 15px;
+        }
+        .footerFinal button{
+        	width: 100px;
+        	height: 50px;
+        	border-radius: 50px;
+        	background-color: #10e79f;
+        	color: white;
+        }
         /*Evan Heyman*/
        .Page2-section{
         background-color: white;
@@ -304,6 +350,7 @@
 
 </head>
 <body>
+    <!-- Start of Page 1 -->
 	<section class="Header">
 		<div class="nav-container">
 			<nav>
@@ -364,7 +411,7 @@
 			</div>
 		</div>
 	</section>
-
+    <!-- The end of Page -->
     <section class="hiw-section">
         <div class="hiw-main">
             <h1 id="hiw-h1">How does it work?</h1>
@@ -498,5 +545,35 @@
             </div>
         </div>
     </section>
+    <!-- Start of Footer code -->
+    <section class="SectionFooter">
+		<div class="footerLogo">
+			<img src="logo.PNG">
+		</div>
+		<div class="footerResources">
+			<h1>Resources</h1>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">How it Works</a></li>
+				<li><a href="">FAQs</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footerInformation">
+			<h1>Information</h1>
+			<ul>
+				<li><a href="">305-240-9671</a></li>
+				<li><a href="">info@company.com</a></li>
+			</ul>
+		</div>
+		<div class="footerFinal">
+			<br>
+			<button>English</button>
+			<p>Copyright C 2048 Topic Listed Center.</p>
+			<p>All rights reserved.</p>
+			<br>
+			<p>Design: CTU Team</p>
+		</div>
+	</section>
 </body>
 </html>
