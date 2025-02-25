@@ -186,6 +186,35 @@
             transform: scale(1.3);
         }
 
+        /* Get in touch */
+        .git-section{
+        	height: 300px;
+        	background-color: lightblue;
+        }
+
+        #git-h1{
+            text-align: center;
+            padding: 10px;
+        }
+
+        .git-content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center; 
+            align-items: center;
+            position: relative;
+            z-index: 1;
+            gap: 50px; 
+        }
+
+        .git-map{
+            border-radius: 10px;
+        }
+
+        .git-headoffice, .git-dubaioffice{
+            margin: 0 10px;
+        }
+
 
 	</style>
 
@@ -304,5 +333,43 @@
             </div>
     </section>
     <!--  of Page 2 -->
+
+    <!-- Get in touch section -->
+    <section class="git-section">
+        <h1 id="git-h1">Get in touch</h1>
+
+        <div class="git-content">
+            <div class="git-map" style="overflow:hidden;resize:none;max-width:100%;width:500px;height:200px;">
+                <div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;">
+                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Francisco+Park&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                </div>
+                <a class="googl-ehtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">premium bootstrap themes</a>
+                <style>#google-maps-canvas img{max-height:none;max-width:none!important;background:none!important;}</style>
+            </div>
+
+            <div class="git-headoffice">
+                <h2>Head office</h2>
+                <p>Bay St &, Larkin St, San <br>
+                   Francisco, CA 94109, United <br>
+                   States</p>
+
+                <hr>
+
+                <p>Phone 305-240-967</p>
+                <p>Email info@company.com</p>
+            </div>
+
+            <div class="git-dubaioffice">
+                <h2>Dubai office</h2>
+                <p>Burj Park, Downtown Dubai, <br>
+                   United Arab Emirates</p>
+
+                <hr>
+
+                <p>Phone 110-220-3400</p>
+                <p>Email info@company.com</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
